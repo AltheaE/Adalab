@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+.caja{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+
+}
