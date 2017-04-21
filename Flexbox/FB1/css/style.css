@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0,
+}
+
+header {
+    background-color: rgb(244, 107, 65);
+    width: 100%;
+}
+
+.aside1 {
+    background-color: rgb(244, 244, 65)
+}
+
+.mid-content{
+  max-width: 960px;
+  display: flex;
+
+}
+}
+.col1-4 {
+      width: 25%;
+}
+.col2-4 {
+      width: 50%;
+}
+.article1 {
+    background-color: rgb(66, 134, 244);
+}
+.aside2 {
+    background-color: rgb(244, 65, 130);
+}
+footer {
+    background-color: rgb(65, 244, 103);
+    width: 100%;
+}
