@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.accountForm{
+  width: 400px;
+  background: linear-gradient(45deg, #e2e2e2 0%,#fefefe 74%);
+  align-items: center;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+small{
+  color: grey;
+}
+input{
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 8px;
+}
+.halfSize{
+  width: 50%;
+}
+.fullSize{
+  width: 100%;
+}
+.birthdate{
+  padding: 4px;
+  margin-top: 8px;
+}
+
+#btnCreate{
+  border-radius: 4px;
+  background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 50%;
+}

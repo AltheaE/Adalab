@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="accountForm">
+      <h1> Create an account</h1>
+      <h2> I'ts free and always will be</h2>
+      <div class="accountData">
+          <form class="" action="index.html" method="post">
+          <input  id=js-name class="halfSize" type="text" name="firstName" value="" placeholder="First Name">
+          <input  class="halfSize" type="text" name="Surname" value="" placeholder="Surname">
+          <input  id=js-mail class="fullSize" type="email" required name="email" placeholder="name@gmail.com" pattern=".+@gmail.com">
+          <input  id=js-checkMail class="fullSize" type="email" required name="repeatEmail" placeholder="Re enter email "pattern=".+@gmail.com" >
+          <input type="password" class="fullSize" name="password" value="" placeholder=" New Password">
+        </div>
+
+
+        <div class="birthdate">
+          <label for="dateBirth">Birthday</label>
+          <select  id="js-bDay" name="day-of-birth">
+            <option value="Day">Day</option>
+          </select>
+          <select id="js-bMonth" name="month-of-birth">
+            <option value="Month">Month</option>
+          </select>
+          <select  id="js-bYear" name="year-of-birth">
+            <option value="Year">Year</option>
+          </select>
+          </div>
+
+          <input type="radio" name="gender" class="radio" id="gender-female" value="female">
+          <label for="gender-female">Female</label>
+          <input type="radio" name="gender" class="radio" id="gender-male" value="male">
+          <label for="gender-male">Male</label>
+          <p><small>By clicking Create an account, you agree to our
+          <a href="#">Terms</a> and that you have read our
+          <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</small>
+          </p>
+          <input type="button" id=btnCreate  value="Create an account">
+          </form>
+          <p id="js-createAnswer"></p>
+        </div>
+
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
