@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+h2{
+  font-size: 19px;
+  font-weight: normal;
+}
+.accountForm{
+  width: 400px;
+  background: linear-gradient(45deg, #e2e2e2 0%,#fefefe 74%);
+  align-items: center;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: #365899;
+}
+.birthdayTitle{
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.birthdate{
+  word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: flex;
+    align-content: space-around;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+}
+#birthQuestion{
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+small{
+  color: #1d2129;
+  display: block;
+  width: 316px;
+}
+input{
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 8px;
+}
+.halfSize{
+  width: 50%;
+}
+.fullSize{
+  width: 100%;
+}
+.nameSurnamebox{
+  display: flex;
+  align-content: space-between;
+}
+.birthdate{
+  padding: 4px;
+  margin-top: 8px;
+}
+
+#btnCreate{
+  border-radius: 4px;
+  background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 50%;
+}
