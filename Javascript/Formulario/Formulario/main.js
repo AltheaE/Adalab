@@ -8,7 +8,19 @@ for (var i = 1; i <= 31; i++) {
 }
 
 var monthMenu = document.getElementById('js_menuMonth');
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var months = [
+"January",
+"February",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"December"];
 
 for (var i = 0; i < months.length; i++) {
   var option = document.createElement("option");
@@ -19,7 +31,7 @@ for (var i = 0; i < months.length; i++) {
 
 var yearMenu = document.getElementById('js_menuYear');
 
-for (var i = 1900; i <= 2010; i++) {
+for (var i = 1900; i <= 2017; i++) {
     var option = document.createElement("option");
     option.value = [i];
     option.text = [i];
