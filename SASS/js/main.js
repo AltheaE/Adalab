@@ -1,11 +1,11 @@
-/*var mobileMenu = document.querySelector('#js-menuMobile');
+/*function showMobileMenu() {
+  var mobileMenu = document.querySelector('#js-menuMobile');
 
-function showMobileMenu() {
   var menuStatus = mobileMenu.style.display;
-  if (menuStatus =='none') {
-    menuStatus ='flex';
-  } else if( menuStatus== 'flex') {
-    menuStatus ='none';
+  if (menuStatus === 'none' || menuStatus === "") {
+    mobileMenu.style.display ='flex';
+  } else {
+    mobileMenu.style.display ='none';
   }
 }
 

@@ -15,16 +15,22 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100px;
-  background-color: lightgrey; }
+  height: 80px;
+  background-color: lightgrey;
+  position: relative; }
 
 .menuDesktop {
-  display: none; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
+@media (max-width: 800px) {
+  .menuDesktop {
+    display: none; } }
 .menuMobile {
   position: absolute;
   right: 0;
-  top: 100px;
+  top: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,6 +46,12 @@ header {
   background-color: grey;
   opacity: 0; }
 
+@media (min-width: 800px) {
+  #js-btnMenu {
+    display: none; }
+
+  #js-menuMobile {
+    display: none; } }
 .brandWrapper {
   height: 70%; }
 
@@ -52,11 +64,11 @@ li {
 body {
   font-family: 'Roboto', sans-serif; }
 
-.active {
-  opacity: 1; }
-
 .menuMobile {
   -webkit-transition: opacity  0.5s linear;
   transition: opacity  0.5s linear; }
+
+.active {
+  opacity: 1; }
 
 /*# sourceMappingURL=stylesheet.css.map */
